@@ -2,17 +2,17 @@ const containerDiv = document.querySelector("#container");
 
 
 
-//const buttonEl = document.getElementById("btn");
+const buttonEl = document.getElementById("btn");
 
-//buttonEl.onclick = ()=>{
-//   var a = prompt("Enter Grid size");
-//   if (a <= 100){
-//   makeRows(a,a);
-//   }
-//   else {
-//    alert("Enter size below 100");
-//   }
-//}
+buttonEl.onclick = ()=>{
+   var a = prompt("Enter Grid size");
+   if (a <= 100){
+   makeRows(a,a);
+   }
+   else {
+    alert("Enter size below 100");
+   }
+}
 
 
 
@@ -34,5 +34,4 @@ function makeRows(rows, columns) {
     }
 }
 
-makeRows(16,16);
 
